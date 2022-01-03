@@ -1,6 +1,6 @@
 library("ggplot2")
 
-input_data = "C:\\Users\\guest\\Downloads\\advanced_retail_sales.csv"
+input_data = "C:\\Users\\peterabraham\\Downloads\\advanced_retail_sales.csv"
 temp_df = read.csv(input_data)
 temp_df[,"DATE"] = as.Date(temp_df[,"DATE"], format="%m/%d/%Y")
 
