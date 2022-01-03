@@ -1,3 +1,5 @@
+#A momentum based quanitative trading strategy that identifies high quality momentum stocks and reccomends the number of shares to buy based on the input portfilio amount.
+
 import numpy
 import pandas as pd
 import requests
@@ -10,6 +12,7 @@ input_data = '/Users/peterabraham/Downloads/sp_500_stocks.csv'
 stocks = pd.read_csv(input_data)
 
 from secrety import IEX_CLOUD_API_TOKEN
+
 
 symbol = 'SMID'
 
