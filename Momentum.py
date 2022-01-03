@@ -1,4 +1,4 @@
-#A momentum based quanitative trading strategy that identifies high quality momentum stocks and reccomends the number of shares to buy based on the input portfilio amount.
+#A momentum based quantitative trading strategy that identifies high quality momentum stocks and recommends the number of shares to buy based on the input portfilio amount.
 
 import numpy
 import pandas as pd
